@@ -17,5 +17,6 @@ public class Stream implements Iterable<StudentGroup>{
     @Override
     public Iterator<StudentGroup> iterator() {
         return new StreamIterator();
+
     }
 }
