@@ -17,7 +17,6 @@ public class StudentController implements UserConrtroller<Student> {
 
     public void removeStudentByFIO(String firstName, String lastName, String middleName) {
         studentGroupService.removeStudentByFIO(firstName, lastName, middleName);
-//        studentView.sendOnConsole(String firstName, String lastName, String middleName);
     }
 
     public List<Student> getSortedStudentList() {

@@ -26,8 +26,6 @@ public class Student extends User implements Comparable<Student> {
         this.studentId = studentId;
     }
 
-
-
     @Override
     public int compareTo(Student o) {
         return this.studentId.compareTo(o.studentId);
