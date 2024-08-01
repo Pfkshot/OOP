@@ -1,21 +1,23 @@
 package Sem3;
 
+import Sem4.StudentGroup;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class Stream implements Iterable<StudentGroup> {
-    private List<StudentGroup> studentGroups = new ArrayList<>();
+public class Stream implements Iterable<Sem4.StudentGroup> {
+    private List<Sem4.StudentGroup> studentGroups = new ArrayList<>();
 
-    public void addGroup(StudentGroup group) {
+    public void addGroup(Sem4.StudentGroup group) {
         studentGroups.add(group);
     }
 
-    public List<StudentGroup> getStudentGroups() {
+    public List<Sem4.StudentGroup> getStudentGroups() {
         return studentGroups;
     }
 
-    public void setStudentGroups(List<StudentGroup> studentGroups) {
+    public void setStudentGroups(List<Sem4.StudentGroup> studentGroups) {
         this.studentGroups = studentGroups;
     }
 
