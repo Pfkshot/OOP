@@ -4,9 +4,11 @@ package Sem4;
 import java.util.Iterator;
 import java.util.List;
 
+import java.util.Comparator;
+
 public class Teacher extends User implements Comparable<Teacher> {
 
-    private long teacherId;
+    private Long teacherId;
     private List<Teacher> teacherList;
 
     public List<Teacher> getTeacherList() {
